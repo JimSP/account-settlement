@@ -1,0 +1,6 @@
+rootProject.name = 'accounting-settlement'
+
+include ':accounting-settlement-rest'
+include ':accounting-settlement-dto'
+include ':accounting-settlement-core'
+include ':accounting-settlement-canonico'

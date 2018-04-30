@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'com.jimsp.account-settlement-canonico'
+version = '0.0.1'
+
+dependencies {
+
+}

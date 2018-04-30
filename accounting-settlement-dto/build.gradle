@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'com.jimsp.account-settlement-dto'
+version = '0.0.1'
+
+dependencies {
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.5'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.5'
+	compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+}
